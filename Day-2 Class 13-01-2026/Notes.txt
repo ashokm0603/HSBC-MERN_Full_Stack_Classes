@@ -1,0 +1,238 @@
+Types Of Web Application : 
+--------------------------
+        1. static web Application 
+                ->Any web Application doesn't have Functionality 
+                ->To build static web Application using only HTML and CSS 
+
+
+        2. dynamic web Application
+                ->Any web Application having Functionality 
+                ->To build dynamic web Application using  HTML , CSS and Javascript
+
+
+    HTML : 
+------------
+        ->HTML is used to build Web Page Structure 
+        ->HTML Stands "Hyper text markup language"
+        ->HTML standard markup language 
+        ->HTML introduced in the year 1991 by the developer "Tim Berners Lie"
+        ->HTML will contains series of elements 
+        ->latest version of HTML is HTML 5
+
+
+
+HTML Structure / HTML boiler plat: 
+---------------------
+
+HTML Tags: 
+------------
+    ->Tags are predefine words which are inclosed with both opening  and closing angular brackets 
+    Ex: <meta> , <img> , <h1></h1> , <body></body>
+
+
+    Types of Tags : 
+    ---------------
+    1. paired tags 
+        Ex: <h1>    </h1>
+
+            i. heading tags 
+            ii . formatting tags 
+                        1. <b></b>
+                        2. <strong></strong>
+                        3. <i></i>
+                        4. <em></em>
+                        5. <mark></mark>
+                        6. <u></u>
+                        7. <strick></strick>
+                        8. <sub></sub>
+                        9. <sup></sup>
+
+
+            iii. order tags 
+                ex:<p> </p>  , <div> </div> , <span> </span>, semantic tags ..etc
+
+
+    2. unpaired tags /self closing tags: 
+    -------------------------------------------
+        ->Any having openings tags 
+            Ex: <hr> , <br> , <img> , <input> ..ect
+
+
+
+HTML ELEMENTS : 
+---------------
+        ->The opening tag , closing tag and content together we called as a HTml ELEMENTS
+
+        Ex: <h1> HELLO EVERYONE </h1>
+
+        types ELEMENTS : 
+            1. Block level ELEMENTS 
+                ->Ex: all heading tags , div , semantic tags 
+
+            2. inline level ELEMENTS
+                ->the elements which will consumes only content width
+                ->Ex: all formatting tags , <span></span> ..etc 
+
+
+
+  HTML attributes: 
+  -----------------
+    ->attributes are nothing but additional information given to tag 
+    ->Attributes are always in static or opening tag 
+    ->Attributes are always in key & Value pair 
+    ->Every HTML Elements having Attributes 
+
+
+    ->Ex: <h1 align="center">HELLO</h1>
+	  <h1 align="center" id="heading" style="color:red">Sample Example for attribute</h1>
+
+
+
+marquee: 
+----------
+        ->marquee tag is used to scroll the content 
+        marquee attributes : 
+        ----------------------
+            1. direction : right , left , up , down
+            2. behavior  : scroll , slide
+            3. height
+            4. width 
+            5. scrollamount 
+            6. loop
+
+
+
+Img: 
+----
+    -><img> is used to display images on the web page 
+    attributes in Image tag : 
+        1. src(source)
+                ->In Src we need to images address / image path as a values 
+                1. relative path (browser image address)
+                2. absolute path (local images/ downloaded images path)
+
+
+        2. alt(alternate)
+        3. height
+        4. width
+
+
+List In HTML : 
+---------------
+        Types of List : 
+            1. Ordered List 
+            2. Unordered List 
+            3. Description List / definition List 
+            4. Nested List
+
+   		1. ordered list : 
+        		->In HTML to display ordered List here need to use <ol></ol>
+        		->This is ordered list contains list items <li></li>
+
+		        ordered List Attributes : 
+        		--------------------------
+            		1.type : 1 , a, A, i, I  
+           		    2.start 
+            		3.reversed
+
+        2. Unordered List
+        	->In HTML to display Unordered List here need to use <ul></ul>
+            ->This is ordered list contains list items <li></li>
+
+            Attributes in Unordered List: 
+            ---------------------------------
+                1. type : none , desc , circle , square
+
+
+        3. Description List / definition List 
+            1. <dl></dl>    ->Description list
+            2. <dt></dt>    ->Description term
+            3. <dd></dd>    ->Description data
+
+         4. Nested List
+
+
+
+tables : 
+---------
+-> To design table in html we use some tags
+
+<table > table tag
+<tr> table row 
+<td> table data
+<th> table heading 
+<thead > table head 
+<tbody> table body 
+<tfoot> table footer 
+
+
+Attributes in table : 
+--------------------
+    1. border 
+    2. cellspacing 
+    3. cellpadding
+    4. algin 
+    5. bgcolor
+
+        To group Columns : 
+        ------------------
+            1. <colgroup></colgroup>
+            2. <col span="2">
+
+
+attribute in td /th : 
+---------------------
+        1. colspan -> to margie columns 
+        2. rowspan  -> to margie rows
+
+
+Forms : 
+--------
+    1. <form></form>                ->action , method
+    2. <fieldset></fieldset>
+    3. <legend></legend>            ->align
+    4. <label></label>              ->for 
+    5. <input>                      ->type
+    6. <button></button>
+    7. <textarea></textarea>
+    8. <select></select>
+
+
+
+Form input type value : 
+------------------------
+        1.text 
+        2.email 
+        3.password
+        4. number 
+        5. radio 
+        6. range 
+        7. checkbox 
+        8. color 
+        9. url 
+        10. date 
+        11. datetime-local 
+        12. file 
+        13. submit 
+        14. reset 
+        15. button 
+        16. image 
+        17. time
+        18. month
+        19. week
+        20. search
+
+
+
+    Form input Attributes : 
+    --------------------------
+        1. type 
+        2. placeholder
+        3. name  
+        4. id 
+        5. maxlength
+        6. minlength 
+        7. min 
+        8. max
+        9. required
+        10.

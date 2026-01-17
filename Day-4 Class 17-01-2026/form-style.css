@@ -1,0 +1,44 @@
+/* *{
+    background-color: blueviolet ;
+}  */
+ 
+ 
+ 
+ 
+ #form-container {
+     background-color: rgb(245, 250, 215);
+
+ }
+
+ #container {
+     background-image: radial-gradient(rgba(255, 0, 0, 0.669), rgba(0, 128, 0, 0.662)) !important;
+     border-radius: 10px 60px;
+     padding: 50px;
+ }
+
+ .para {
+     font-style: italic;
+     text-decoration-line: underline ;
+     line-height: 2;
+     color: red !important;
+     word-spacing: 20px;
+ }
+
+ h1{
+  text-align: center;
+  text-shadow: 5px 5px 5px aliceblue;  
+ }
+ label{
+    font-style: italic;
+    font-weight: bold;
+ }
+
+
+ button, .para, p{
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: mediumpurple;
+
+ }
+
