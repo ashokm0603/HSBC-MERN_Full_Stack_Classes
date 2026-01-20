@@ -57,24 +57,116 @@ CSS Box Model :
         display : none ,  block , line-block , flex, grid 
 
 
-    Flex Properties : 
-    -----------------
-        display:flex 
-        flex-direction 
-        flex-wrap 
-        justify-content 
-        align-items 
+
+    
+
+Display Properties : 
+----------------------
+    1. none 
+    2. block (default value)
+    3. inline 
+    4. inline-block 
+    5. flex 
+    6. inline-flex 
+    7. grid 
 
 
-    grid Properties : 
-    -----------------
-            display:grid 
 
-    Animations: 
-    -----------
+flex-properties: 
+------------------
+    1. display:flex; 
+
+    2. flex-direction :row ,row-reverser ,column ,column-reverse
+
+    3. flex-warp:warp ,no-warp ,  warp-reverse
+
+    4. justify-content :start , left , end, right , center , space-evenly , space-between, space-around
+
+    5. align-items :end, start , center, baseline
+
+    6. flex-grow :number
+    7. flex-shrink:number
+    8. flex-bases:number
+    9. flex:number
+
+
+
+ position properties : 
+ ------------------------
+        1. static 
+        2. relative 
+        3. absolute 
+        4. sticky 
+        5. fixed
+
+
+
+Grid Properties : 
+------------------ 
+        1. display :grid 
+        2. grid-template-columns 
+        3. grid-template-rows 
+        4. row-gap 
+        5. column-gap 
+        6. grid-column-start 
+        7. grid-column-end 
+        8. grid-row-start 
+        9. grid-row-end 
+
+
+
+
+
+Background properties : 
+-------------------------
+    1. Background-color : 
+    2. Background-image :url()
+    3. Background-position:top left , top right, top center , left , center , right , bottom left , bottom center , bottom right
+    4. Background-size :auto(default value ), cover , contain
+    5. Background-repeat :repeat(default value), no-repeat, repeat-x, repeat-y
+    6. Background-attachment :fixed , scroll (default value)
+
+
+
+Transform Properties : 
+----------------------
+    1. translate()
+    2. translateX()
+    3. translateY()
+    4.scale()
+    5.scaleX()
+    6.scaleY()
+    7.skew()
+    8.skewX()
+    9.skewY()
+    10.rotate()
+    11.rotateX()
+    12.rotateY()
+
+
+Animation properties : 
+----------------------
+    ->Animation are introduced in the version CSS3
+    ->Animation are used to apply the stylings from one style to another style for particular duration 
+    ->To Start the Animation we need to @keyframes
+    ->Animation will work only when it contains animation-duration 
+
+
+    1. animation-name 
+    2. animation-duration
+    3. animation-iteration-count : number , infinite
+    4. animation-delay 
+    5. animation-direction: normal , reverse, alternate , alternate-reverse 
+    6. animation-timing-function: linear , ease , ease-in , ease-out, ease-in-out 
+    
+
+	Syntax: 
+
         @keyframe animationName{
 
         }
+
+
 
 
 
@@ -86,8 +178,22 @@ Responsive Web designing :
             1. min-width 
             2. max-width 
 
+    1. small devices (phones)
+    2. medium devices (tablets )
+    3. large devices (laptops)
+    4. extra large devices (projectors , digital screening devices)
+
 
 
     @media screen  and ()  {
 
     }
+
+
+    
+
+
+
+
+
+
