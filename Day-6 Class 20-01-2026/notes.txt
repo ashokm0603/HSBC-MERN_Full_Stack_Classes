@@ -1,0 +1,93 @@
+Text Properties : 
+------------------
+    1. coloring
+    2. text alignments 
+    3. transform 
+    4. text indentation
+    5. text decoration
+
+             i. text-decoration-style:double , dashed , dotted , wavy , solid ;
+             ii.text-decoration-line:  underline , overline , line-thought , none
+             iii.text-decoration-thickness : 
+
+
+    6. font Properties 
+        1. font-size 
+        2. font-weight 
+        3. font-family
+        4. font-style
+
+CSS Box Model : 
+----------------
+
+        1. content  
+        2. padding 
+            ->space b\w content and border
+                1. padding-left : 
+                2. padding-right : 
+                3. padding-top : 
+                4. padding-bottom : 
+                5. padding: 
+
+
+        3. border 
+
+                ->space b\w padding and margin
+
+                1. border-style 
+                2. border-width
+                3. border-color
+
+                4. border (short cut to display border-color, border-thickness, border-style)
+                5. border-top
+                6. border-bottom 
+                7. border-left 
+                8. border-right
+
+                9. border-radius
+
+                10. box-shadow
+
+        4. margin
+
+
+
+    display Properties : 
+    ---------------------
+        display : none ,  block , line-block , flex, grid 
+
+
+    Flex Properties : 
+    -----------------
+        display:flex 
+        flex-direction 
+        flex-wrap 
+        justify-content 
+        align-items 
+
+
+    grid Properties : 
+    -----------------
+            display:grid 
+
+    Animations: 
+    -----------
+        @keyframe animationName{
+
+        }
+
+
+
+
+Responsive Web designing : 
+---------------------------
+
+    ->device break points 
+            1. min-width 
+            2. max-width 
+
+
+
+    @media screen  and ()  {
+
+    }

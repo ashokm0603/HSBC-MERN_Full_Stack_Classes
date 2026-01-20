@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      div {
+        width: 80vw;
+        padding: 30px;
+        background-color: pink;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        row-gap: 50px;
+        column-gap: 50px;
+        margin: 30px;
+        box-shadow: 50px 10px 50px red;
+        animation-name: rotate_animation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+      }
+
+
+      @keyframes rotate_animation{
+        0%{
+            transform: rotate(0deg);
+        }100%{
+            transform: rotate(360deg);
+        }
+      }
+
+
+      h3 {
+        text-align: center;
+        padding: 10px;
+        box-shadow: 4px 4px 4px black;
+        background-color: palegreen;
+      }
+
+      h3:nth-child(1) {
+        grid-row-start: 1;
+        grid-row-end: 4;
+      }
+      h3:nth-child(2) {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+
+      h3:nth-child(12) {
+        grid-row-start: 5;
+        grid-row-end: 5;
+      }
+
+      h3:nth-child(13) {
+        grid-row-start: 5;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 5;
+      }
+
+      h3:nth-child(15) {
+        grid-row-start: 7;
+        grid-row-end: 9;
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+      h3:nth-child(14) {
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>heading-1</h3>
+      <h3>heading-2</h3>
+      <h3>heading-3</h3>
+      <h3>heading-4</h3>
+      <h3>heading-5</h3>
+      <h3>heading-6</h3>
+      <h3>heading-7</h3>
+      <h3>heading-8</h3>
+      <h3>heading-9</h3>
+      <h3>heading-10</h3>
+      <h3>heading-11</h3>
+      <h3>heading-12</h3>
+      <h3>heading-13</h3>
+      <h3>heading-14</h3>
+      <h3>heading-15</h3>
+    </div>
+  </body>
+</html>
