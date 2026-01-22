@@ -1,0 +1,183 @@
+->Mocha 
+    ->liveScript
+            ->javascript   (net scape)
+    
+    1996->ECMA 
+            ->added new features ->release ES1 ->1996
+
+            ->stable version Javascript is ES6 (ECMA Script)
+            ->latest version Javascript is ES15(ECMA Script version 15)
+
+
+Javascript : 
+------------
+        ->Javascript Is the Scripting Language as well as programming Language
+        ->Javascript is Declarative In Nature 
+
+
+        ->Using Javascript we can dynamic Web application
+        ->Using Javascript We can add functionality to the web pages
+        ->Using JS we can fetch the API data to server
+        ->Using Js achieve DOM functionality
+
+
+        ->Javascript having single Call stack
+
+
+
+    We can write JS in two way : 
+    ----------------------------
+            1. internal JS 
+                    ->Write entire JS code in html by taking <script></script> in body section
+
+
+
+
+            2. external JS 
+                    ->Write entire JS code by creating .JS file and link to html  by taking <script></script>  in body section
+                  
+
+            
+
+DataTypes in Javascript : 
+--------------------------
+    ->DataTypes represents the What type of Data we are storing on variable
+
+    1. Primitive DataTypes (object referencing)
+            i.      string 
+            ii .    number 
+            iii.    boolean 
+            iv.     null 
+            v.      undefine 
+            vi.     bigInt
+            vii.    symbol
+
+
+
+    2. non Primitive DataTypes(object de-referencing)
+            i.   Arrays 
+            ii.  objects
+            iii. functions
+            iv.  class
+
+    
+
+    Variables : 
+    -----------
+        ->variable are the named memory location used to store data/ values and it can change N number of time during execution
+
+        or 
+
+        ->variables are the containers used to store data/ values 
+
+
+        1. variable Declaration
+                ->naming or defining a variable
+                    let num;
+        2. variable initialization 
+                ->assigning/ storing a values to the variable
+
+        3. variable utilization 
+                ->accessing/ using a variable is called as  a variable utilization
+
+        4. variable Re-initialization 
+                ->Re-assigning/ Re-storing a values to the variable
+
+
+
+
+
+hosting / Temporal dead lock
+-----------------------------
+        ->utilizing the variables before Declaration
+
+
+        Ex:     console.log(var1)
+                    let var1=50;
+    
+    
+        1. let 
+                ->let variables acts like local scop
+                ->Declaration/ initialization in same or different is possible
+                ->Re-initialization is possible but Re-Declaration is not possible 
+                ->We can not hosting let variables 
+
+        2. var
+
+                ->let variables acts like scrip scop
+                ->Declaration/ initialization in same or different is possible
+                ->Re-initialization /Re-Declaration  is possible  
+                ->We can  hosting var variables 
+
+        3. const 
+                ->const variables acts like final (we can not change values)
+                ->Declaration & initialization in same line but in different line is not possible
+                ->Re-initialization /Re-Declaration  is not possible  
+                ->We can not hosting const variables 
+
+
+
+    Tokens : 
+    --------
+        ->Tokens are the smallest Units in the program / code 
+
+        Types of Tokens 
+        ------------------
+            1. Identifiers 
+                ->names given javascript code 
+                ->in the place of Identifiers we can not use keywords
+
+
+            2. keywords : 
+                    -> keywords are pre-define word
+                    ->66 keywords     /   C->32 / python ->34 /java ->50 / Dart 62
+
+
+            3. literals 
+                ->Values give to the code 
+                1. string literals 
+                2. Numeric literals
+
+
+            4. operators 
+                    ->operators are the symbols used to perform operation on operands
+
+                    Ex: 10 + 20 
+                    Types : 
+                        1. Athematic operators                       (+, - , * , %  , / , **)
+                        2. comparison operators                      (== , != ,===)
+                        3. Assignment operators                      (=, += , -=, *=, /=,%=)
+                        4. logical operators                         (&& , || , ! )
+                        5. shift operators                           (>> , <<)
+                        6. bitwise operators                         (& , | , ^)  
+                        7. ternary operators                         (condition ? true statement : false statement ) 
+                        8. Relational operators                       (> ,< ,>= ,<=)    
+                        9. unary operators                             (++ , --)  
+
+
+
+            5. separators 
+                    ->separators are used to separate the give code 
+                    Ex: "" ,' ' ,`` ,() ,[ ], {} , < >  , : ,; 
+
+            6. comments
+                    // 
+
+                    /*
+
+                    ---------
+                    ---------
+                    */
+
+
+        String : 
+        ---------
+            ->we can Declared string 3 different ways 
+            1. "    " 
+            2. '    '
+            3. `     `->back tick ->template string -> we achieve string interpolation
+            
+
+
+        Arrays : 
+        --------
