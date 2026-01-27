@@ -1,0 +1,101 @@
+React Js : 
+----------
+    ->React JS is the Javascript library 
+    ->react Js component bases 
+    ->react Js virtual DOM(ajax)
+
+
+ Step To Create  React JS:
+ -------------------------
+    1. CLI (command line interface) 
+            i. using npm(node package manager )         ->npm create vite@latest  (React + vite )
+
+
+            ii. using npx(node package executable)      ->npx create-react-app appname
+
+    2. CDN(content delivery network) 
+
+React will support SPA(Single page Application) : 
+----------------------------------------------------
+
+
+
+JSX(javascript and XML): 
+--------------------------
+    ->JSX similar to HTML 
+    ->React js will understand JSX code but browser will not understand JSX 
+    ->babel.js compiler
+
+rules : 
+------------
+    ->JSX file name starts with UpperCase
+    ->i need write all html elements in  parent  tag
+    -><> </>
+
+components In React JS 👍
+--------------------------
+    ->Smallest UI Block in Web Page 
+
+    Types components : 
+        1. Function based component 
+
+             Syntax: 
+                function Nav(){
+                        return (
+                            <div>
+                                 <h1>THIS NAV Component</h1>
+                            </div>
+                                )
+                            }
+                export default Nav;
+
+
+            ->FBC is stateless
+            ->super and this keyword is not present
+            ->render() function not present
+
+
+        2. Class Based component 
+
+        Syntax : 
+        import { Component } from "react";
+        class Nav extends Component{
+            render(){
+                return(
+                    <h1>CBC</h1>
+                )
+            }
+        }
+        export default Nav;
+
+        
+            ->CBCis stateFull Component 
+            ->super and this keyword is  present
+            ->render() function  present
+
+
+
+State : 
+--------
+    ->States are used to hold the data 
+    ->State are present only CBC  
+    ->state are mutable in nature
+    ->if we want to use states in FBC need HOOKs  (16.8) 
+        Ex: useState , useNavigate ,   useEffect , useMemo , useContext 
+
+
+
+
+Props : 
+-------
+    ->props are used to transfer data one component to another Component
+    ->props immutable in nature 
+
+
+    parent component
+        |
+            --->    
+                    |
+                child component
+
+
