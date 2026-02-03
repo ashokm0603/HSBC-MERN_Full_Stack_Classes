@@ -1,0 +1,15 @@
+#counter-container>h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+button{
+    background-color: gold;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 30px;
+    border-radius: 10px;
+}

@@ -1,0 +1,109 @@
+Node js: 
+---------   
+    ->node js open source run time environment to run javascript 
+    ->node js will provide predefine V8 JS engine 
+
+
+Node Inbuilt Module : 
+----------------------
+    1. path 
+    2. os 
+    3. fs 
+    4. http 
+
+
+    require ->used to import module 
+    module.exports ->used to export multiple modules at time
+
+    User Define Module: 
+    --------------------
+            ->any modules defined by user/ programmer as per there requirement 
+
+
+
+
+npm (Node package manager): 
+---------------------------
+        npm install express
+
+
+
+
+Express : 
+--------
+    ->Express is node js framework 
+
+setup backend project : 
+-------------------------
+
+    1. npm init -y
+    2.npm install express
+    3.npm install mongoose    -> to install mongoose drive to integrate (node,express) to mongoDB
+    4. npm install dotenv  ->used to configure .env file to project 
+
+
+    MVC: 
+        1.model 
+            ->model packages will contains the schema login (data defining login) 
+
+        2.view 
+                ->access data with help of router 
+                ->router means paths(based on the path we can navigate from controller login )
+
+
+            Routes(HTTP Request Methods) : 
+            ------------------------------
+                1. get() 
+                2. post()
+                3. put()
+                4. delete()
+
+        3.controller : 
+                ->controller will contains the logic whats the we need to display one web page 
+                ->here complete data controller login (req, res , filtering data , authorization , authentication..etc)
+
+
+    -> API TEST VS CODE EXTENSION:thunder client 
+    
+
+
+    ->To store encrypted password in mongoDB
+            in backend application
+                "npm install bcrypt" 
+
+
+    
+
+
+    backend APIs : 
+    ---------------
+    1. post method (register api )
+            http://localhost:4000/api/register
+
+    2. post method (login api )
+            http://localhost:4000/api/login
+    
+
+    3. post method (add product api )
+            http://localhost:4000/api/add-product
+
+    4. get method (get product api )
+            http://localhost:4000/api/get-products
+
+    5. delete method (delete product api )
+            http://localhost:4000/api/delete-product/:id
+
+    6. put method (update product api )
+            http://localhost:4000/api/update-product/:id
+
+    7. get method (get product based on ID api )
+            http://localhost:4000/api/get-product/:id
+
+
+
+    Axios: 
+    ------
+    
+
+
+    useEffect()
